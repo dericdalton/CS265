@@ -232,6 +232,7 @@ int getInt()
 			choices(8) ;
 			std::cin.clear() ;
 			std::cin.ignore(100, '\n') ;
+			continue ;
 		}
 
 		if (!(i >= 2 && i <= 4))
@@ -240,6 +241,7 @@ int getInt()
 			choices(8) ;
 			std::cin.clear() ;
 			std::cin.ignore(100, '\n') ;
+			continue ;
 		}
 	}while (std::cin.fail() || (!(i >= 2 && i <= 4))) ;
 	std::cin.clear() ;
