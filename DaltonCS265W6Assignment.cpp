@@ -611,7 +611,7 @@ bool isPrime(unsigned int n)
  	 * Logic was found on C++ beginner . com  This was a hard one for me to
  	 * figure out.
  	 * I started off loading an array of all prime numbers, but it was very
- 	 * complex.  I coldn't figure out the logic and I conulted the
+ 	 * complex.  I couldn't figure out the logic.  I consulted the
  	 * duckduckgo oracle and this was the nicest open source
  	 * one that I could find. */
 	for(int i = 1; i <= n; i++)
